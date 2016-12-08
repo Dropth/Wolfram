@@ -1,0 +1,6 @@
+c:\users\florian\documents\visual studio 2015\Projects\Wolfram\Wolfram\bin\Debug\Wolfram.exe.config
+c:\users\florian\documents\visual studio 2015\Projects\Wolfram\Wolfram\obj\Debug\Wolfram.csprojResolveAssemblyReference.cache
+c:\users\florian\documents\visual studio 2015\Projects\Wolfram\Wolfram\bin\Debug\Wolfram.exe
+c:\users\florian\documents\visual studio 2015\Projects\Wolfram\Wolfram\bin\Debug\Wolfram.pdb
+c:\users\florian\documents\visual studio 2015\Projects\Wolfram\Wolfram\obj\Debug\Wolfram.exe
+c:\users\florian\documents\visual studio 2015\Projects\Wolfram\Wolfram\obj\Debug\Wolfram.pdb
