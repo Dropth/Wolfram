@@ -11,15 +11,16 @@ namespace Wolfram {
         const int ITE = 300;
         const int regle = 62;
         static void Main (string [] args) {
-            int [] grille = new int [TAILLE];
+            Bool [] grille = new Bool [TAILLE];
+            // why not use a bool array instead as values are 0 / 1
             int [] temp = new int [TAILLE];
 
             Random r = new Random();
             for (int i = 0 ; i < TAILLE ; i++) {
                 if (r.NextDouble() > 0.5)
-                    grille [i] = 1;
+                    grille [i] = True;
                 else
-                    grille [i] = 0;
+                    grille [i] = False;
             }
             //grille[150] = 1;
             afficherGrille(grille);
@@ -27,7 +28,7 @@ namespace Wolfram {
                 for (int j = 0 ; j < TAILLE ; j++) {
                     temp [j] = calculEtatCellule(j,grille);
                 }
-                grille = new int [TAILLE];
+                grille = new Bool[TAILLE];
                 grille = temp;
                 afficherGrille(grille);
                 temp = new int [TAILLE];
